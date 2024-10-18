@@ -1,12 +1,15 @@
-import React from 'react';
-import { RecoilRoot } from 'recoil';
-import AppRoutes from './routes';
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import { RecoilRoot } from "recoil";
+import Layout from "./Layout";
 
 function App() {
   return (
     <React.StrictMode>
       <RecoilRoot>
-        <AppRoutes />
+        <Router>
+          <Layout />
+        </Router>
       </RecoilRoot>
     </React.StrictMode>
   );

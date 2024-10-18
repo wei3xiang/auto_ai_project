@@ -3,7 +3,7 @@ import SearchForm from "./SearchForm";
 import CreatForm from "./CreateForm";
 import UpdateForm from "./UpdateForm";
 import RemoveForm from "./RemoveForm";
-import DetailForm from "./DetailForm";
+import DisableForm from "./DisableForm";
 import List from "./List";
 import { PageContainer } from "@ant-design/pro-components";
 import { Space } from "antd";
@@ -11,17 +11,19 @@ import "./index.less";
 
 const Index = (props) => {
   return (
-    <PageContainer header={{ title: "" }} className="bg">
-      <div className="searchBg">
-        <SearchForm />
-      </div>
-      <div className="listBg">
-        <List />
+    <PageContainer header={{ title: "" }}>
+      <div>
+        <div className="searchBg">
+          <SearchForm />
+        </div>
+        <div className="listBg">
+          <List />
+        </div>
       </div>
       <CreatForm />
       <UpdateForm />
       <RemoveForm />
-      <DetailForm />
+      <DisableForm />
     </PageContainer>
   );
 };
