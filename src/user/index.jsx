@@ -5,7 +5,7 @@ import UpdateForm from "./UpdateForm";
 import RemoveForm from "./RemoveForm";
 import DetailForm from "./DetailForm";
 import List from "./List";
-import { PageContainer } from "@ant-design/pro-components";
+import { PageContainer } from "@ant-design/pro-layout";
 import { Space } from "antd";
 import "./index.less";
 

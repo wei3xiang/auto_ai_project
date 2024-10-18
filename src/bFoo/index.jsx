@@ -5,9 +5,8 @@ import UpdateForm from "./UpdateForm";
 import RemoveForm from "./RemoveForm";
 import DisableForm from "./DisableForm";
 import List from "./List";
-import { PageContainer } from "@ant-design/pro-components";
-import { Space } from "antd";
-import "./index.less";
+import { PageContainer } from "@ant-design/pro-layout";
+import "./bFoo.less";
 
 const Index = (props) => {
   return (
